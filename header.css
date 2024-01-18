@@ -1,0 +1,51 @@
+/* ---- header ---- */
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* spirte */
+
+li a {
+    border-radius: 6px;
+    display: block;
+    padding: 3px;
+}
+li a:hover {
+    background-color: #f2efef;
+}
+
+#icons li{
+    list-style: none;
+    float: left;
+    padding: 10px;
+}
+
+li span{
+    background: url("images/icons_1_80x20.jpg");
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+/* social media */
+
+.twitter{
+    background-position: 0 0;
+}
+
+.insta{
+    background-position: -20px 0;
+}
+
+.facebook{
+    background-position: -40px 0;
+}
+
+.linkedin{
+    background-position: -60px 0;
+}

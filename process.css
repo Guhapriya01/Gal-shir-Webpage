@@ -1,0 +1,74 @@
+#special{
+    background: linear-gradient(0deg, #00b1ff,0%, #d600ff,16%);
+    background: -webkit-linear-gradient(0deg, #00b1ff 0%, #d600ff 16%);
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    color: transparent;
+}
+
+.process .right{
+    position: relative;
+    padding-left: 17px;
+}
+
+.flex-marker h3, .flex-marker span{
+    float:left;
+    margin-top: 0;
+}
+
+.para{
+    clear: left;
+}
+
+/* marker */
+
+.flex-marker {
+    padding-bottom: 2%;
+}
+
+.flex-marker:not(:first-child) span{
+    margin-top: 10px; 
+    margin-left: -19px;
+}
+
+.flex-marker:first-child  span{
+    margin-top: 10px;
+    margin-left: -22px;
+}
+
+.flex-marker:not(:first-child) .marker{
+    background-color: black;
+    height: 5px;
+    width: 5px;
+    border-radius: 51%;
+}
+
+.flex-marker:first-child .marker{
+    background-color: black;
+    height: 11px;
+    width: 11px;
+    border-radius: 51%;
+}
+
+/* marker line */
+
+.process .right::before {
+    content: "";
+    position: absolute;
+    top: 21px;
+    left: 0;
+    height: 100%;
+    border-left: 1px solid #cfcaca; 
+    z-index: -1;
+}
+
+#last::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    border-left: 1px solid  hsl(60 25% 96%);
+    z-index: -1;
+    height: 100%;
+}

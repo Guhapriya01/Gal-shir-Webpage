@@ -1,0 +1,32 @@
+/* medium */
+
+@media all and  (max-width:1200px){
+
+    .chat, .process, .work{
+        flex-direction: column;
+    }
+    .images a{
+        flex: 1 1 49%; 
+    }
+}
+
+/* small */
+
+@media all and  (max-width:800px){
+
+    .chat, .process, .work{
+        flex-direction: column;
+    }
+
+    .images a{
+        flex: 1 1 100%;
+    }
+
+    /* social media */
+    .header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+

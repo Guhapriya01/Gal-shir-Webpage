@@ -1,0 +1,16 @@
+.avt {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+    height: 30%;
+}
+
+.avt img {
+    border-radius: 50%; 
+    padding-right: 10px;
+}
+
+.contact{
+    background-color: #f7f7f7;
+    padding: 20px;
+}

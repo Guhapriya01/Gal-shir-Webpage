@@ -1,0 +1,21 @@
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    column-gap: 2%;
+}
+
+.images a{
+    flex-basis: 32%;
+    margin-bottom: 2%; 
+}
+
+.images div{
+    height: 100%;
+    aspect-ratio: 1/1;
+}
+
+.images img{
+    border-radius: 3%;
+}
